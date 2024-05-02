@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('https://img.freepik.com/free-photo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-h_1258-83456.jpg');
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* overflow: hidden; */
+}
+.container{
+    padding-left: 100px;
+    padding-top: 20px;
+    color: beige;
+}
+.bar{
+    display: flex;
+    cursor: pointer;
+}
+.name{
+    font-size: 25px;
+    color: orange;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Merriweather', serif;
+}
+.home{
+    padding-left: 450px;
+    font-size: large;
+}
+.about{
+    padding-left: 80px;
+    font-size:large;
+}
+.portfolio{
+    padding-left: 80px;
+    text-decoration: underline;
+    font-size: large;
+    color:skyblue;
+}
+.service{
+    padding-left: 80px;
+    font-size:large;
+}
+.contact{
+    margin-left: 120px;
+    padding: 9px 10px 9px 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-style: bold;
+}
+.main p{
+    padding-top: 150px;
+    font-style: bold;
+    font-size: 20px;
+}
+.content{
+    font-size:50px;
+}
+.blink{
+    font-size:50px;
+    animation: blink 1.5s linear infinite;
+    color:orange;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 11;
+    }
+}
+.skill{
+    font-style: bold;
+    font-size: 20px;
+}
+.hire{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+
+}
+.icons{
+    display: flex;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+ .image img{
+    height: 500px;
+    padding-top: 60px;
+    float: right;
+    padding-right: 120px;
+    border-radius: 30px ;
+ }
+
+ .name:hover{
+    text-decoration: underline;
+  
+ }
+ .home:hover{
+    text-decoration: underline;
+    color: aqua;
+ }
+ .about:hover{
+    text-decoration: underline;
+    color: aqua;
+ }
+ .service:hover{
+    text-decoration: underline;
+     color: aqua;
+ } 
+ .download-resume {
+ padding: 9px 10px;
+ border: none;
+ border-radius: 5px;
+ background-color: #3498db;
+ color: white;
+ cursor: pointer;
+ font-size: 14px;
+  text-decoration: none;
+}
+
+.download-resume:hover {
+background-color:green;
+}
